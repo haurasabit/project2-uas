@@ -1,0 +1,26 @@
+body .container-fluid .col-md-12{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid .col-md-12 .brand{
+    background-color: #F8F9FA;
+    margin-top: 0;
+    padding: 0;
+}
+
+.col-md-3 img{
+    width: 270px;
+    height: auto;
+}
+
+footer{
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+
+footer p{
+    margin: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+}
