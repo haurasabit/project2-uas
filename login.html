@@ -17,16 +17,16 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="#"><b>Login</b></a>
+    <a href="#"><b>Login Admin Backend</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
-      <form action="/backend/login.html" method="post">
+      <form action="backend/profile.html" method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="Email">
+          <input type="email" class="form-control" placeholder="Email" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-envelope"></span>
@@ -34,7 +34,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" class="form-control" placeholder="Password" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -44,20 +44,30 @@
         <div class="row">
           <div class="col-8">
             <div class="icheck-primary">
-              <input type="checkbox" id="remember">
+              <input type="checkbox" id="remember" required>
               <label for="remember">
                 Remember Me
               </label>
             </div>
           </div>
           <!-- /.col -->
+<<<<<<< HEAD
           <div class="social-auth-links col-4">
             <a href="backend/profile.html">
             <button class="btn btn-primary btn-block">Log In</button></a>
           </div>
+=======
+>>>>>>> 4362810a49de4dd3195618c5524884c0fad6c1ca
           <!-- /.col -->
         </div>
+        
+        <div class="social-auth-links text-center mb-3">
+          <a href="backend/profile.html" class="btn btn-block btn-primary">
+            <i class="fab fa-facebook mr-2"></i> Login Admin Backend
+          </a>
+        </div>
       </form>
+<<<<<<< HEAD
 
       <div class="social-auth-links text-center mb-3">
         <p>- OR -</p>
@@ -68,13 +78,15 @@
           <i class="fab fa-google-plus mr-2"></i> Sign in using Google+
         </a>
       </div>
+=======
+>>>>>>> 4362810a49de4dd3195618c5524884c0fad6c1ca
       <!-- /.social-auth-links -->
 
       <p class="mb-0">
         <a href="register.html" class="text-center">Register a new membership</a>
       </p>
       <p class="mb-0">
-        <a href="/landing-page/index.html" class="text-center">Back to home</a>
+        <a href="/landing-page/index.html" class="text-center">Back to Dashboard</a>
       </p>
     </div>
     <!-- /.login-card-body -->
