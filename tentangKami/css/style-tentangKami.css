@@ -22,10 +22,12 @@ body .container-fluid .col-md-12{
 
 .row-header .col-md-12 h1{
     margin-left: 5em;
+    color: white;
 }
 .row-header .col-md-12 p{
     margin-left: 10.5em;
     font-style: italic;
+    color: white;
 }
 
 .col-md-6 img{
