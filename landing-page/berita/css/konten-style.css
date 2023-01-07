@@ -1,31 +1,40 @@
 body .container-fluid .col-md-12{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 .container-fluid .col-md-12 .brand{
     background-color: #F8F9FA;
     margin-top: 0;
     padding: 0;
+    justify-content: space-evenly;
 }
 
-.content-berita{
-    margin-left: 2.5vw;
-}
-
-hr{
-    margin-right: 2.5vw;
-}
 
 .col-md-3 img{
     width: 300px;
     height: auto;
 }
 
+.thumb{
+    margin-left: 1vw;
+    margin-right: 1.5vw;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-berita{
+    margin-left: 1vw;
+    justify-content: space-around;
+}
+
 footer{
     background-color: #F8F9FA;
     margin-bottom: 0;
-    margin-left: 0px;
 }
 
 footer p{
