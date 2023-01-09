@@ -22,6 +22,9 @@ body .container-fluid .col-md-12{
     justify-content: space-between;
 }
 
+p{
+    text-align: justify;
+}
 
 footer{
     background-color: #F8F9FA;
