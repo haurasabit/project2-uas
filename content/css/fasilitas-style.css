@@ -14,6 +14,10 @@ body .container-fluid .col-md-12{
     height: auto;
 }
 
+p{
+    text-align: justify;
+}
+
 footer{
     background-color: #F8F9FA;
     margin-bottom: 0;

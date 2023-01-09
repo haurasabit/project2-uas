@@ -1,0 +1,48 @@
+body .container-fluid .col-md-12{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid .col-md-12 .brand{
+    background-color: #F8F9FA;
+    margin-top: 0;
+    padding: 0;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    margin: 20px;
+    padding: 10px;
+}
+
+.col-md-7 img{
+    width: 810px;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+.container-fluid-step{
+    margin-left: 25px;
+}
+
+footer{
+    background-color: #F8F9FA;
+    margin-bottom: 0;
+}
+
+footer p{
+    margin: 10px;
+    margin-bottom: 3px;
+    text-align: center;
+}
