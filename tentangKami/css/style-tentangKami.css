@@ -20,6 +20,10 @@ body .container-fluid .col-md-12{
     
 }
 
+p{
+    text-align: justify;
+}
+
 .row-header .col-md-12 h1{
     margin-left: 5em;
     color: white;
