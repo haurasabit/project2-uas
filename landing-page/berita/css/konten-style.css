@@ -36,6 +36,11 @@ p{
     text-align: justify;
 }
 
+.hotel-img{
+    width: 40%;
+    height: auto;
+}
+
 footer{
     background-color: #F8F9FA;
     margin-bottom: 0;

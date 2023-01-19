@@ -14,9 +14,38 @@ body .container-fluid .col-md-12{
     justify-content: space-between;
 }
 
-.col-md-3 img{
-    width: 360px;
+.col-md-4 img{
+    width: 400px;
     height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border: 3px dashed black;
+}
+
+.col-md-6 img{
+    width: 660px;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    border: 3px dashed black;
+}
+
+.col-md-3 img{
+    width: 290px;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 0vw;
+    border: 3px dashed black;
+}
+
+
+h1{
+    margin-left: 2vw;
+}
+
+p{
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 footer{

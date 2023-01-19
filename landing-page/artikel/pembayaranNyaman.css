@@ -19,16 +19,11 @@ body .container-fluid .col-md-12{
     padding: 10px;
 }
 
-h1{
-    margin-left: 30px;
-}
-
-
-.col-md-12 img{
-    justify-content: space-between;
-    width: 170vh;
+.col-md-4 img{
+    justify-content: space-evenly;
+    width: 50vw;
     height: auto;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .col-md-1 img{
@@ -39,16 +34,16 @@ h1{
 
 p{
     text-align: justify;
-    margin-left: 15px;
-    margin-right: 20px;
+    margin-right: 2vw;
 }
 
 .col-md-12-artikel{
-    margin-left: 30px;
-    margin-right: 60px;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
-.col-md-12 footer{
+
+footer{
     background-color: #F8F9FA;
     margin-bottom: 0;
 }
