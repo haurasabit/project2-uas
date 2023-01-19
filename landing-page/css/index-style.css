@@ -37,9 +37,26 @@ body .container-fluid .col-md-12{
     margin-top: 10px;
 }
 
+p{
+    margin-right: 2vw;
+}
+
+.h4home{
+    border: 1px solid navy;
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+.list-group{
+    width: 90%;
+    text-align: center;
+    float: right;
+}
+
 .content{
-    margin: 10px;
-    padding: 10px;
+    margin: 2vw;
+    padding: 1vw;
 }
 
 footer{
